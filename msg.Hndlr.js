@@ -370,7 +370,7 @@ Mhankbarbar,YogaSakti,Arugaz,XyroMawwari', id)
             
      case '${prefix}waifu':
             const waifu = await get.get(`https://mhankbarbar.herokuapp.com/api/waifu?apiKey=${apiKey}`).json()
-            client.sendFileFromUrl(from, waifu.image, 'Waifu.jpg', `➸ Name : ${waifu.name}\n➸ Description : ${waifu} ditiJsin[rindIndix]
+            client.sendFileFromUrl(from, waifu.image, 'Waifu.jpg', `➸ Name : ${waifu.name}\n➸ Description : ${waifu} ditiJsin[rindIndix])
             client.sendFileFromUrl(from, rindKiy.image, 'Husbu.jpg', rindKiy.teks, id)
             break
             
